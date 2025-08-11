@@ -30,7 +30,7 @@ const Projects = () => {
     },
     {
       title: "Amazon Clone",
-      date: "January 2023",
+      date: "July 2025",
       tech: "HTML, CSS",
       desc: "A pixel-perfect clone of the Amazon homepage, demonstrating advanced layout techniques with HTML and CSS. The project focuses on replicating the complex multi-column structure, navigation bar, and responsive design of a major e-commerce site to showcase front-end development skills.",
       githubUrl: "https://github.com/muzammil-55/AmazonClone",
@@ -38,7 +38,7 @@ const Projects = () => {
     },
     {
       title: "Netflix Clone",
-      date: "December 2022",
+      date: "July 2025",
       tech: "HTML, CSS",
       desc: "A front-end clone of the Netflix landing page, built to showcase expertise in creating a visually appealing and modern user interface. This project highlights proficiency in CSS Flexbox, custom fonts, and styling for a responsive, cinematic layout.",
       githubUrl: "https://github.com/muzammil-55/Netflix-Clone",
@@ -46,7 +46,7 @@ const Projects = () => {
     },
     {
       title: "Instagram Login Page Clone",
-      date: "April 2023",
+      date: "July 2025",
       tech: "HTML, CSS",
       desc: "A meticulous recreation of the Instagram login page, focusing on precise styling and layout. This project demonstrates skills in building clean, centered forms, implementing custom buttons and inputs, and creating a responsive design that adapts flawlessly to different screen sizes.'",
       githubUrl: "https://github.com/muzammil-55/Instagram-login-clone",
@@ -54,7 +54,7 @@ const Projects = () => {
     },
     {
       title: "Receipt Generator",
-      date: "March 2023",
+      date: "August 2025",
       tech: "HTML, CSS, JS",
       desc: "Built a business receipt generator, where item name, quantity, price, date are printed on the receipt seamlessly.",
       githubUrl: "https://github.com/muzammil-55/RECEIPT-GENERATOR",
@@ -62,7 +62,7 @@ const Projects = () => {
     },
     {
       title: "Business Name Generator",
-      date: "November 2022",
+      date: "July 2025",
       tech: "HTML, CSS, JS",
       desc: "Built a business name generator, where unique names for small scale businesses are generated.",
       githubUrl: "https://github.com/muzammil-55/BusinessNameGenerator",
@@ -71,7 +71,7 @@ const Projects = () => {
     
     {
     title: 'BMI Calculator',
-    date: 'Month Year', 
+    date: 'May 2025', 
     tech: "HTML, CSS, JavaScript",
     
     desc: 'A simple and interactive BMI calculator that allows users to input their height and weight to quickly calculate their Body Mass Index. The application provides instant feedback and classifies the result into categories like underweight, normal, overweight, etc.',
@@ -83,7 +83,7 @@ const Projects = () => {
 
     {
       title: "Stone, Paper, Scissors",
-      date: "November 2022",
+      date: "August 2025",
       tech: "HTML, CSS, JS",
       desc: "A classic rock-paper-scissors game implemented to showcase fundamental JavaScript logic and DOM manipulation. The application allows a user to play against a computer opponent, tracks the score, and provides real-time updates on who won each round.",
       githubUrl: "https://github.com/muzammil-55/StonePaperScissors",
@@ -91,7 +91,7 @@ const Projects = () => {
     },
     {
       title: "To-Do List App",
-      date: "November 2022",
+      date: "August 2025",
       tech: "React, Tailwind CSS",
       desc: "A modern and responsive to-do list application built with React and styled with Tailwind CSS. It allows users to add, delete, and mark tasks as complete. The use of state management in React ensures the UI is always in sync with the data, providing a seamless user experience.",
       githubUrl: "https://github.com/muzammil-55/itask-react-tailwind",
@@ -99,7 +99,7 @@ const Projects = () => {
     },
     {
       title: "Faulty Calculator",
-      date: "November 2022",
+      date: "July 2025",
       tech: "HTML, CSS, JS",
       desc: "A unique web-based calculator with a fun twist: it intentionally produces incorrect results based on a set of predetermined rules. This project was built to test and showcase debugging skills and a creative approach to problem-solving within a user interface.",
       githubUrl: "https://github.com/muzammil-55/FaultyCalculator",
@@ -107,7 +107,7 @@ const Projects = () => {
     },
     {
       title: "Tic-Tac-Toe",
-      date: "November 2022",
+      date: "August 2025",
       tech: "HTML, CSS, JS",
       desc: "An engaging and fully functional Tic-Tac-Toe game. The project demonstrates a clear understanding of game state management, conditional logic to check for a winner, and dynamic rendering of the game board. It features a responsive design for a smooth experience on all devices.",
       githubUrl: "https://github.com/muzammil-55/TicTacToe",
@@ -115,7 +115,7 @@ const Projects = () => {
     },
     {
       title: "Personal-Portfolio",
-      date: "November 2022",
+      date: "August 2025",
       tech: "React, Tailwind",
       desc: "'A dynamic, single-page application that serves as my personal portfolio. Built with React and styled with Tailwind CSS, this project showcases my skills in front-end development, responsive design, and component-based architecture. It effectively highlights my projects, skills, and professional experience in a clean and accessible format.",
       githubUrl: "https://github.com/muzammil-55/muzammil-portfolio",
