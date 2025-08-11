@@ -70,4 +70,4 @@ This project is licensed under the MIT License – see the LICENSE file.
 Name: Muzammil Khan
 Email: [muzammil092000@gmail.com]
 
-⭐ If you like this project, give it a star on GitHub! ```
+⭐ If you like this project, give it a star on GitHub!
