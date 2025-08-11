@@ -20,7 +20,7 @@ const About = () => {
                     </div>
                     <div className="space-y-4 text-gray-700 flex-1 flex flex-col justify-center items-center">
                         <a
-                            href="src\assets\resume\MuzammilKhanResume.pdf"
+                            href="public/MuzammilKhanResume.pdf"
                             download="MuzammilKhanResume.pdf"
                             className="inline-block px-8 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300"
                         >
