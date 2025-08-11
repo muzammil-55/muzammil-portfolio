@@ -199,9 +199,9 @@ const Projects = () => {
             >
               <span>{showAll ? "See Less" : "See More"}</span>
               {/* Animated icon based on state */}
-              <div className={`transform transition-transform duration-300 ${showAll ? 'rotate-180' : ''}`}>
-                {showAll ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
-              </div>
+            <div className={`transform transition-transform duration-300 ${showAll ? 'rotate-180' : ''}`}>
+  <ChevronDown size={20} />
+</div>
             </button>
           </div>
         )}
