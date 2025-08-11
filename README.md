@@ -51,30 +51,23 @@ npm run dev
 📦 Deployment
 Vercel
 Push your code to GitHub.
-
-Go to Vercel, import your project.
-
+Go to Vercel and import your project.
 Vercel will auto-detect the Vite setup and deploy.
 
 Netlify
 Push your code to GitHub.
-
-Go to Netlify, connect your repository.
-
+Go to Netlify and connect your repository.
 Set:
 
 Build Command: npm run build
 
 Publish Directory: dist
 
-
 📄 License
 This project is licensed under the MIT License – see the LICENSE file.
 
 📧 Contact
-Name: [Muzammil Khan]
-
+Name: Muzammil Khan
 Email: [muzammil092000@gmail.com]
 
-
-<p align="center">⭐ If you like this project, give it a star on GitHub!</p> ```
+<p align="center"> ⭐ <strong>If you like this project, give it a star on GitHub!</strong> </p> ```
