@@ -1,12 +1,82 @@
-# React + Vite
+My Personal Portfolio
+A modern, responsive, and dynamic personal portfolio website designed to showcase my professional skills, projects, and experience.
+Built with a focus on clean design and performance, this site provides a clear overview of my work and an easy way for others to get in touch.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+Responsive Design – Fully adaptive layout for desktops, tablets, and mobile devices.
 
-Currently, two official plugins are available:
+Modern UI/UX – Clean, minimalist interface with smooth animations and transitions using the latest web practices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Performance Optimized – Built with Vite for fast load times and a seamless experience.
 
-## Expanding the ESLint configuration
+Project Showcase – Dedicated section to highlight projects with descriptions, tech stack, and links to demos/code.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+🚀 Tech Stack
+Frontend Framework: React
+
+Build Tool: Vite
+
+Styling: Tailwind CSS
+
+Icons: Lucide React
+
+Deployment: Vercel / Netlify
+
+⚙️ Getting Started
+Prerequisites
+Ensure you have the LTS version of Node.js and npm installed.
+
+Installation
+Clone the repository
+
+
+git clone https://github.com/[YourGitHubUsername]/[your-repo-name].git
+Navigate to the project directory
+
+
+cd [your-repo-name]
+Install dependencies
+
+
+npm install
+Run the development server
+
+npm run dev
+The app will be accessible at:
+
+
+http://localhost:5173
+📦 Deployment
+Vercel
+Push your code to a GitHub repository.
+
+Sign in to Vercel and import your project.
+
+Vercel will auto-detect the Vite setup and deploy it.
+
+Netlify
+Push your code to a GitHub repository.
+
+Connect your repo in Netlify.
+
+Set:
+
+Build Command: npm run build
+
+Publish Directory: dist
+
+🤝 Contributing
+Contributions are welcome! If you have suggestions for features, fixes, or improvements, open an issue or submit a pull request.
+
+📄 License
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+📧 Contact
+Name: [Your Name]
+
+Email: [Your Email Address]
+
+GitHub: https://github.com/your-username
+
+LinkedIn: https://linkedin.com/in/your-profile
