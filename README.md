@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 My Personal Portfolio
 A modern, responsive, and dynamic personal portfolio website designed to showcase my professional skills, projects, and experience.
 Built with a focus on clean design and performance, this site provides a clear overview of my work and an easy way for others to get in touch.
@@ -79,5 +79,3 @@ GitHub: https://github.com/your-username
 
 LinkedIn: https://linkedin.com/in/your-profile
 =======
-# muzammil-portfolio
->>>>>>> b628d309d1523f61720d95c0a3efc93bcbbd507b
