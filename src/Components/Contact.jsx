@@ -42,7 +42,7 @@ const Contact = () => {
                 </a>
               </div>
               <a
-                href="public/MuzammilKhanResume.pdf"
+                href="public/assets/MuzammilKhanResume.pdf"
                 download="MuzammilKhanResume.pdf"
                 className="inline-block px-8 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300"
               >
