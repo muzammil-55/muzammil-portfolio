@@ -13,8 +13,8 @@ const Home = () => {
           className="rounded-full w-40 h-40 mx-auto mb-8 shadow-2xl border-4 border-white transform transition-transform duration-500 hover:scale-105"
         />
         <h1 className="font-extrabold text-4xl sm:text-6xl lg:text-7xl mb-4 text-gray-900">
-          Hi, I'm Muzammil
-          <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="60px" alt="Waving hand GIF" className="inline-block ml-4" />
+          Hi,
+          <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="60px" alt="Waving hand GIF" className="inline-block ml-4" /> I'm Muzammil
         </h1>
         <p className="max-w-3xl mx-auto text-lg sm:text-2xl text-gray-600 leading-relaxed">
           A passionate Full Stack MERN Developer and Machine Learning Enthusiast, dedicated to building dynamic, user-centric applications.
