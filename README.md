@@ -43,10 +43,7 @@ npm install
 Run the development server
 
 npm run dev
-The app will be accessible at:
 
-
-http://localhost:5173
 📦 Deployment
 Vercel
 Push your code to a GitHub repository.
