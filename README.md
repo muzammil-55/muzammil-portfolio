@@ -74,7 +74,7 @@ This project is licensed under the MIT License – see the LICENSE file.
 📧 Contact
 Name: [Muzammil Khan]
 
-Email: [muzammil092000@gmail.com]```
+Email: [muzammil092000@gmail.com]
 
 
-<p align="center">⭐ If you like this project, give it a star on GitHub!</p>
+⭐ If you like this project, give it a star on GitHub!
