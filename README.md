@@ -1,62 +1,65 @@
-<<<<<<< HEAD
-My Personal Portfolio
-A modern, responsive, and dynamic personal portfolio website designed to showcase my professional skills, projects, and experience.
-Built with a focus on clean design and performance, this site provides a clear overview of my work and an easy way for others to get in touch.
+<h1 align="center">💼 My Personal Portfolio</h1>
 
-✨ Features
-Responsive Design – Fully adaptive layout for desktops, tablets, and mobile devices.
+<p align="center">
+A modern, responsive, and dynamic personal portfolio website showcasing my skills, projects, and experience.<br>
+Built for performance and design excellence.
+</p>
 
-Modern UI/UX – Clean, minimalist interface with smooth animations and transitions using the latest web practices.
+---
 
-Performance Optimized – Built with Vite for fast load times and a seamless experience.
+## ✨ Features
 
-Project Showcase – Dedicated section to highlight projects with descriptions, tech stack, and links to demos/code.
+- 📱 **Responsive Design** – Fully adaptive layout for desktops, tablets, and mobile devices.
+- 🎨 **Modern UI/UX** – Minimalist design with smooth animations and transitions.
+- ⚡ **Performance Optimized** – Built with Vite for lightning-fast load times.
+- 💡 **Project Showcase** – Highlight projects with descriptions, tech stack, and live/demo links.
 
+---
 
-🚀 Tech Stack
-Frontend Framework: React
+## 🚀 Tech Stack
 
-Build Tool: Vite
+| **Category** | **Tech** |
+|--------------|----------|
+| Frontend     | React |
+| Build Tool   | Vite |
+| Styling      | Tailwind CSS |
+| Icons        | Lucide React |
+| Deployment   | Vercel / Netlify |
 
-Styling: Tailwind CSS
+---
 
-Icons: Lucide React
+## ⚙️ Getting Started
 
-Deployment: Vercel / Netlify
+### Prerequisites
+- Node.js **(LTS version)**
+- npm **(comes with Node)**
 
-⚙️ Getting Started
-Prerequisites
-Ensure you have the LTS version of Node.js and npm installed.
-
-Installation
-Clone the repository
-
-
+### Installation
+```bash
+# 1. Clone the repository
 git clone https://github.com/[YourGitHubUsername]/[your-repo-name].git
-Navigate to the project directory
 
-
+# 2. Navigate to the project directory
 cd [your-repo-name]
-Install dependencies
 
-
+# 3. Install dependencies
 npm install
-Run the development server
 
+# 4. Run the development server
 npm run dev
 
 📦 Deployment
 Vercel
-Push your code to a GitHub repository.
+Push your code to GitHub.
 
-Sign in to Vercel and import your project.
+Go to Vercel, import your project.
 
-Vercel will auto-detect the Vite setup and deploy it.
+Vercel will auto-detect the Vite setup and deploy.
 
 Netlify
-Push your code to a GitHub repository.
+Push your code to GitHub.
 
-Connect your repo in Netlify.
+Go to Netlify, connect your repository.
 
 Set:
 
@@ -64,20 +67,14 @@ Build Command: npm run build
 
 Publish Directory: dist
 
-🤝 Contributing
-Contributions are welcome! If you have suggestions for features, fixes, or improvements, open an issue or submit a pull request.
 
 📄 License
-This project is licensed under the MIT License – see the LICENSE file for details.
+This project is licensed under the MIT License – see the LICENSE file.
 
 📧 Contact
-Name: [Your Name]
+Name: [Muzammil Khan]
 
-Email: [Your Email Address]
+Email: [muzammil092000@gmail.com]
 
-GitHub: https://github.com/your-username
 
-LinkedIn: https://linkedin.com/in/your-profile
-=======
-# muzammil-portfolio
->>>>>>> b628d309d1523f61720d95c0a3efc93bcbbd507b
+<p align="center">⭐ If you like this project, give it a star on GitHub!</p> ```
