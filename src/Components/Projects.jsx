@@ -1,9 +1,9 @@
 import React, { useState, useRef } from 'react';
-import { Folder, ChevronDown, ChevronUp } from 'lucide-react';
+import { Folder, ChevronDown } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
-     {
+    {
       title: "Personal-Portfolio",
       date: "August 2025",
       tech: "React, Tailwind",
@@ -125,8 +125,6 @@ const Projects = () => {
     
    
 
-
-
   ];
 
   const [showAll, setShowAll] = useState(false);
@@ -136,28 +134,28 @@ const Projects = () => {
   const projectsToDisplay = showAll ? projects : projects.slice(0, initialProjectsToShow);
 
   const handleToggleProjects = () => {
-    
     if (showAll && projectsRef.current) {
       projectsRef.current.scrollIntoView({ behavior: 'smooth' });
     }
     setShowAll(!showAll);
   };
-  
+
   return (
     <section ref={projectsRef} id="projects" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4 text-center">
-        {/* Title for the projects section */}
         <h2 className="text-4xl font-extrabold text-blue-600 mb-12 animate-fade-in-down">
           <Folder size={36} className="inline-block mr-4 text-blue-500" />
           Projects
         </h2>
-        
-        {/* Grid layout for project cards with responsiveness */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 transition-all duration-700 ease-in-out">
+
+        {/* Removed transition-all here to reduce lag */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {projectsToDisplay.map((project, index) => (
-            <div 
-              key={index} 
-              className="p-6 bg-white rounded-xl shadow-lg transform transition-all duration-300 hover:scale-105 text-left border border-gray-200"
+            <div
+              key={index}
+              className="p-6 bg-white rounded-xl shadow-md border border-gray-200
+                         transform transition-transform duration-300 hover:scale-105
+                         hover:shadow-lg will-change-transform text-left"
             >
               <h3 className="font-bold text-xl text-blue-600 mb-2">{project.title}</h3>
               <p className="text-sm text-gray-500 mb-4">{project.date}</p>
@@ -165,10 +163,9 @@ const Projects = () => {
               <p className="text-gray-600 text-sm">{project.tech}</p>
               <p className="text-sm font-bold text-gray-700 mt-4">Description:</p>
               <p className="text-gray-600 text-sm">{project.desc}</p>
-              {/* Buttons for GitHub and Live Demo links */}
               <div className="flex justify-start space-x-4 mt-6">
                 <a
-                  href={project.githubUrl}
+                  href={project.githubUrl || '#'}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block px-4 py-2 text-sm font-semibold text-white bg-gray-800 rounded-lg shadow-md hover:bg-gray-700 transition-colors duration-300"
@@ -176,7 +173,7 @@ const Projects = () => {
                   GitHub
                 </a>
                 <a
-                  href={project.liveUrl}
+                  href={project.liveUrl || '#'}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block px-4 py-2 text-sm font-semibold text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300"
@@ -188,7 +185,6 @@ const Projects = () => {
           ))}
         </div>
 
-        {/* See More/See Less button */}
         {projects.length > initialProjectsToShow && (
           <div className="mt-12">
             <button
@@ -197,11 +193,10 @@ const Projects = () => {
                          bg-white border-2 border-blue-600 hover:bg-blue-50 transition-all duration-300
                          flex items-center justify-center space-x-2 mx-auto focus:outline-none"
             >
-              <span>{showAll ? "See Less" : "See More"}</span>
-              {/* Animated icon based on state */}
-            <div className={`transform transition-transform duration-300 ${showAll ? 'rotate-180' : ''}`}>
-  <ChevronDown size={20} />
-</div>
+              <span>{showAll ? 'See Less' : 'See More'}</span>
+              <div className={`transform transition-transform duration-300 ${showAll ? 'rotate-180' : ''}`}>
+                <ChevronDown size={20} />
+              </div>
             </button>
           </div>
         )}
