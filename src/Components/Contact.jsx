@@ -23,10 +23,7 @@ const Contact = () => {
                 <Mail size={24} className="text-blue-500" />
                 <span>muzammil092000@gmail.com</span>
                 </div>
-              <div className="flex items-center space-x-4">
-                <Smartphone size={24} className="text-blue-500" />
-                <span>+91 79891 52744</span>
-              </div>
+              
               <div className="flex items-center space-x-4">
                 <MapPin size={24} className="text-blue-500" />
                 <span>Hyderabad, India</span>
