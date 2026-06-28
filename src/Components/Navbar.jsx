@@ -43,7 +43,7 @@ const Navbar = () => {
             <p className="mt-1 text-gray-800">Full Stack MERN Developer</p>
             <p className="mt-1 text-gray-800">Machine Learning Enthusiast</p>
             <p className="mt-1 text-gray-800">B.E. (CSE) Graduate</p>
-            <p className="mt-1 text-gray-800 font-medium">Email: <span className="font-normal">muzammil092000@gmail.com</span></p>
+            <p className="mt-1 text-gray-800 font-medium">Email: <span className="font-normal">53muzammil@gmail.com</span></p>
         </div>
       </div>
 
