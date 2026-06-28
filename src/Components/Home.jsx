@@ -21,7 +21,7 @@ const Home = () => {
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6 mt-8">
           <div className="flex space-x-6">
-            <a href="https://www.linkedin.com/in/muzammil55" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 transition-colors duration-300">
+            <a href="https://www.linkedin.com/in/muzammil53" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 transition-colors duration-300">
               <Linkedin size={36} />
             </a>
             <a href="https://github.com/muzammil-55" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 transition-colors duration-300">
