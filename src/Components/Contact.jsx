@@ -21,7 +21,7 @@ const Contact = () => {
             <div className="space-y-4 text-lg text-gray-700">
               <div className="flex items-center space-x-4">
                 <Mail size={24} className="text-blue-500" />
-                <span>muzammil092000@gmail.com</span>
+                <span>53muzammil@gmail.com</span>
                 </div>
               
               <div className="flex items-center space-x-4">
